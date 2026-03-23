@@ -420,7 +420,7 @@ footer{max-width:1100px;margin:0 auto;padding:28px 40px 48px}
   </div>
 
   <div class="florin-section">
-    <p class="florin-intro">Florin — the sliders below mirror the assumption inputs at the top of the page and update everything in real time. Adjust deposit, monthly contribution, rate, and how optimistic to be about property growth.</p>
+    <p class="florin-intro">Florin — your ownership share starts at your deposit proportion and grows over time as you pay in. The sliders show what different commitment levels mean for your monthly budget and how your share builds. Every pound you put in counts.</p>
 
     <div class="grid-2" style="gap:40px">
       <div>
@@ -465,7 +465,7 @@ footer{max-width:1100px;margin:0 auto;padding:28px 40px 48px}
 
     <div style="margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start">
       <div>
-        <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-4);margin-bottom:10px">Ownership split</div>
+        <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-4);margin-bottom:10px">Starting split — grows as you contribute</div>
         <div class="own-bar">
           <div class="own-a" id="own-a-bar" style="width:70%">A — 70%</div>
           <div class="own-f" id="own-f-bar" style="width:30%">Florin — 30%</div>
@@ -476,9 +476,9 @@ footer{max-width:1100px;margin:0 auto;padding:28px 40px 48px}
         </div>
       </div>
       <div>
-        <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-4);margin-bottom:10px">What your share is worth over time</div>
+        <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-4);margin-bottom:10px">What your share is worth — net of mortgage</div>
         <div class="own-summary" id="florin-propval"></div>
-        <p style="font-size:11px;color:var(--ink-4);margin-top:8px;line-height:1.5">Property growth is not guaranteed. 3%/yr is a rough UK long-run average. Illustrative only.</p>
+        <p style="font-size:11px;color:var(--ink-4);margin-top:8px;line-height:1.5">Share shown at starting deposit ratio. As monthly contributions accumulate your share will be higher. Property growth is not guaranteed — 3%/yr is a rough UK long-run average.</p>
       </div>
     </div>
   </div>
@@ -489,30 +489,25 @@ footer{max-width:1100px;margin:0 auto;padding:28px 40px 48px}
   <div class="section-header">
     <div class="section-label">Section 4</div>
     <div class="section-title">Ownership</div>
-    <div class="section-sub">How the split is set, how it can change, and how Florin can buy in further.</div>
+    <div class="section-sub">The split starts at the deposit ratio and moves over time as contributions accumulate — always reflecting what each person has actually put in.</div>
   </div>
 
   <div class="callout c-blue" style="margin-bottom:20px" id="own-summary-callout"></div>
 
   <div class="grid-2" style="margin-bottom:20px">
     <div class="callout c-green" style="margin-bottom:0">
-      <div class="callout-title">Why deposit-based is fair</div>
-      <div class="callout-body">The deposit is the clearest measure of what each person put in on day one. It's also the simplest basis — no ongoing tracking, no drift, no ambiguity. Monthly payments are proportional anyway. Revisit by mutual agreement if something significant changes.</div>
+      <div class="callout-title">How it works</div>
+      <div class="callout-body">Ownership is based on total contributions — deposit paid at completion, plus every mortgage payment made from that point. Add up what each person has paid, divide by the combined total, and that's the split. The starting position reflects the deposits. Every month it updates to reflect reality.</div>
     </div>
-    <div class="callout c-amber" style="margin-bottom:0">
-      <div class="callout-title">Recalculation backstop</div>
-      <div class="callout-body">If contributions diverge significantly over many years, either person can request a recount of actual pounds paid at the point of sale. Total deposits + total mortgage payments, divided proportionally. In practice if both keep to the agreed split the result will be almost identical to the default.</div>
+    <div class="callout c-green" style="margin-bottom:0">
+      <div class="callout-title">Florin's share only goes up</div>
+      <div class="callout-body">Because both parties are contributing each month, Florin's share grows continuously as he pays in. It starts at his deposit proportion and increases over time. If he wants to accelerate that — lump sum, higher monthly — his share moves faster. There's no ceiling.</div>
     </div>
   </div>
 
   <div style="background:#fff;border:1px solid var(--rule);border-radius:12px;padding:24px 28px;margin-bottom:20px">
-    <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--ink);margin-bottom:12px;letter-spacing:-.3px">Florin buying in further</div>
-    <p style="font-size:14px;color:var(--ink-2);line-height:1.75;margin-bottom:0">Florin can increase his share at any time by making a further lump sum payment — toward the mortgage or into a jointly-held account earmarked for the property. Both parties agree the new percentage split in writing, and the Deed of Trust is updated to reflect it. There's no legal barrier. This is actually cleaner than trying to track monthly payments continuously — Florin can periodically crystallise additional contributions into a formal share increase whenever it makes sense to do so.</p>
-  </div>
-
-  <div class="callout c-green">
-    <div class="callout-title">Changing the split — simple rule</div>
-    <div class="callout-body">Any change to the ownership percentages needs to be in writing, signed by both parties. A text or email conversation doesn't count. A short written variation (one page, both signatures) is all it takes. The Deed of Trust should include a clause making this explicit.</div>
+    <div style="font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--ink);margin-bottom:12px;letter-spacing:-.3px">The evidence is just bank statements</div>
+    <p style="font-size:14px;color:var(--ink-2);line-height:1.75;margin-bottom:0">Nobody needs to track anything actively. The standing orders do the work. At the point of sale — or any time either person wants to know the current split — you add up deposits plus all mortgage payments from each person's account and do the division. The Deed of Trust specifies that bank statements are the evidence. That's it. In practice you'd only ever calculate it when you actually need the number.</p>
   </div>
 </div>
 
@@ -810,23 +805,23 @@ function render() {
   document.getElementById('leg-f-dep').textContent = fmt(FDEP);
 
   document.getElementById('florin-propval').innerHTML = `
-    <div class="own-summary-title">Florin's ${pct(fPct)} share — net of mortgage</div>
-    <div class="own-row"><span>Today (gross share of property)</span><span>${fmt(PROP * fPct / 100)}</span></div>
+    <div class="own-summary-title">Florin's share — starting at ${pct(fPct)}, growing over time</div>
+    <div class="own-row"><span>Today (deposit basis)</span><span>${fmt(PROP * fPct / 100)}</span></div>
     <div class="own-row"><span>Today (net of mortgage)</span><span style="color:var(--ok)">${fmt((PROP - MORTGAGE) * fPct / 100)}</span></div>
     <div class="own-row"><span>Property value at 5 yrs (${GROWTH}%/yr)</span><span>${fmt(val5)}</span></div>
     <div class="own-row"><span>Remaining mortgage at 5 yrs</span><span style="color:var(--danger)">−${fmt(bal5)}</span></div>
-    <div class="own-row"><span>Net equity — Florin's ${pct(fPct)} at 5 yrs</span><span style="color:var(--ok)">${fmt(florinNetEquity5)}</span></div>
+    <div class="own-row"><span>Net equity at 5 yrs (at starting split)</span><span style="color:var(--ok)">${fmt(florinNetEquity5)}</span></div>
     <div class="own-row"><span>Property value at 10 yrs (${GROWTH}%/yr)</span><span>${fmt(val10)}</span></div>
     <div class="own-row"><span>Remaining mortgage at 10 yrs</span><span style="color:var(--danger)">−${fmt(bal10)}</span></div>
-    <div class="own-row"><span>Net equity — Florin's ${pct(fPct)} at 10 yrs</span><span style="color:var(--ok)">${fmt(florinNetEquity10)}</span></div>
+    <div class="own-row"><span>Net equity at 10 yrs (at starting split)</span><span style="color:var(--ok)">${fmt(florinNetEquity10)}</span></div>
   `;
 
   // ── OWNERSHIP CALLOUT ──
-  document.getElementById('own-summary-callout').innerHTML = `<div class="callout-title">Starting position: A owns ${pct(aPct)}, Florin owns ${pct(fPct)}</div><div class="callout-body">Based on deposits of ${fmt(EQUITY)} and ${fmt(FDEP)}. This is the number that goes in the legal document and applies to everything — sale proceeds, any future buyout, everything. Monthly payments don't automatically alter it. If something significant changes, both parties can agree a new split in writing at any point.</div>`;
+  document.getElementById('own-summary-callout').innerHTML = `<div class="callout-title">Starting position: A owns ${pct(aPct)}, Florin owns ${pct(fPct)}</div><div class="callout-body">Based on deposits of ${fmt(EQUITY)} and ${fmt(FDEP)}. This is where the split begins — not where it stays. Every month both parties pay in, the numbers update to reflect actual cumulative contributions. Florin's share grows continuously as he pays. The Deed of Trust uses bank statements as evidence and calculates the split whenever it's needed — at sale, or any time either party wants to know.</div>`;
 
   // ── SECTION 5 SUMMARY ──
   document.getElementById('summary-callouts').innerHTML = `
-    <div class="callout c-green" style="margin-bottom:0"><div class="callout-title">Ownership: A ${pct(aPct)} / Florin ${pct(fPct)}</div><div class="callout-body">Based on deposits of ${fmt(EQUITY)} and ${fmt(FDEP)}.</div></div>
+    <div class="callout c-green" style="margin-bottom:0"><div class="callout-title">Ownership: starts A ${pct(aPct)} / Florin ${pct(fPct)}</div><div class="callout-body">Based on deposits of ${fmt(EQUITY)} and ${fmt(FDEP)}. Updates continuously as contributions accumulate — every pound paid counts.</div></div>
     <div class="callout c-green" style="margin-bottom:0"><div class="callout-title">Monthly: A covers ${fmt(aMon)}, Florin covers ${fmt(FMON)}</div><div class="callout-body">At ${RATE}% / ${TERM}yr term. Total payment ${fmt(monthlyPmt)}/mo.</div></div>
     <div class="callout c-green" style="margin-bottom:0"><div class="callout-title">LTV: ${pct1(ltv)} — ${ltv <= 80 ? 'inside the 80% tier' : 'outside 80% tier'}</div><div class="callout-body">Combined deposit ${fmt(totalDep)}. ${ltv<=80 ? 'Good rate access.' : 'Increase deposit to reach 80% tier.'}</div></div>
     <div class="callout c-green" style="margin-bottom:0"><div class="callout-title">Florin's surplus: ${fmt(surplus)}/mo after commitment</div><div class="callout-body">${pctTH}% of take-home — ${sl}.</div></div>
